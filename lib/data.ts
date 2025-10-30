@@ -1,3 +1,5 @@
+import { title } from 'process'
+
 const data = {
   headerMenu: [
     {
@@ -31,6 +33,30 @@ const data = {
     {
       name: 'Help',
       link: '/page/help',
+    },
+  ],
+  carousels: [
+    {
+      title: 'Most Popular Coconut Beauties ',
+      buttonCaption: 'Shop Now',
+      image: '/images/coconutbeauti.jpg',
+      url: '/search?category=Coconut+Beauties',
+      isPublished: true,
+    },
+
+    {
+      title: 'Best Sellers in Jute Flowers ',
+      buttonCaption: 'Shop Now',
+      image: '/images/flowevase.jpg',
+      url: '/search?category=Jute+Flowers',
+      isPublished: true,
+    },
+    {
+      title: 'Best Deals in Jute Butterflies ',
+      buttonCaption: 'See More',
+      image: '/images/butterfly.jpg',
+      url: '/search?category=Jute+Butterflies',
+      isPublished: true,
     },
   ],
 }
